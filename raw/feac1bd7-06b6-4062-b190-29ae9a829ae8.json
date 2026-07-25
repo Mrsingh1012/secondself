@@ -1,0 +1,8 @@
+{
+  "id": "feac1bd7-06b6-4062-b190-29ae9a829ae8",
+  "timestamp": "2026-07-25T00:47:12.095918Z",
+  "type": "note",
+  "title": "Vector Embeddings Concept",
+  "content": "Vector embeddings represent text as high-dimensional vectors where cosine distance maps directly to semantic similarity.",
+  "metadata": {}
+}

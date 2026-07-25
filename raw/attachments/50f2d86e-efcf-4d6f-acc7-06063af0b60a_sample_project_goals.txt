@@ -1,0 +1,1 @@
+Project goals for Q3: Complete the SecondSelf AI Second Brain, deploy it publicly to Streamlit Cloud, and test Q&A response times under load. Key focus is to keep the interface highly interactive and lightweight using vis-network.

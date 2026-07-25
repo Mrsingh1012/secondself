@@ -1,0 +1,11 @@
+{
+  "id": "50f2d86e-efcf-4d6f-acc7-06063af0b60a",
+  "timestamp": "2026-07-25T00:47:17.224089Z",
+  "type": "file",
+  "title": "Q3 Project Goals",
+  "content": "Project goals for Q3: Complete the SecondSelf AI Second Brain, deploy it publicly to Streamlit Cloud, and test Q&A response times under load. Key focus is to keep the interface highly interactive and lightweight using vis-network.\n",
+  "metadata": {
+    "original_filename": "sample_project_goals.txt",
+    "attachment_path": "raw\\attachments\\50f2d86e-efcf-4d6f-acc7-06063af0b60a_sample_project_goals.txt"
+  }
+}

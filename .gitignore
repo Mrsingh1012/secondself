@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# IDE / Editor config
+.vscode/
+.idea/
+.DS_Store
+
+# Local project run directories (keep the dirs, ignore the files)
+# raw/
+# wiki/
+# graph.json
+# Note: Keep local notes data out of Git by uncommenting below if you want them private:
+# raw/*
+# !raw/.gitkeep
+# wiki/*
+# !wiki/.gitkeep
+# graph.json

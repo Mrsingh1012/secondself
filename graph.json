@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "1031e780-d238-437b-bc39-245333a9ec69",
+      "label": "Force Directed Graphs",
+      "group": "Resources",
+      "title": "<b>Title:</b> Force Directed Graphs<br/><b>Category:</b> Resources<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    },
+    {
+      "id": "237f5490-1ab7-46d1-a324-e9c664695792",
+      "label": "Wikipedia: Vector Database",
+      "group": "Projects",
+      "title": "<b>Title:</b> Wikipedia: Vector Database<br/><b>Category:</b> Projects<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 7
+    },
+    {
+      "id": "2cba439e-e71d-4553-973d-16e59c3fd3af",
+      "label": "Groq API Performance",
+      "group": "Resources",
+      "title": "<b>Title:</b> Groq API Performance<br/><b>Category:</b> Resources<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    },
+    {
+      "id": "38bdf61c-5f71-48e5-ba37-e036f164fe92",
+      "label": "Data Science Core Notes",
+      "group": "Resources",
+      "title": "<b>Title:</b> Data Science Core Notes<br/><b>Category:</b> Resources<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    },
+    {
+      "id": "50f2d86e-efcf-4d6f-acc7-06063af0b60a",
+      "label": "Q3 Project Goals",
+      "group": "Projects",
+      "title": "<b>Title:</b> Q3 Project Goals<br/><b>Category:</b> Projects<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    },
+    {
+      "id": "72f7ead8-f35a-4280-8363-a88fec28a04b",
+      "label": "Wikipedia: Information Retrieval",
+      "group": "Projects",
+      "title": "<b>Title:</b> Wikipedia: Information Retrieval<br/><b>Category:</b> Projects<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    },
+    {
+      "id": "9f171c08-7bc8-486e-8c82-1a7a75577338",
+      "label": "Streamlit Framework Info",
+      "group": "Resources",
+      "title": "<b>Title:</b> Streamlit Framework Info<br/><b>Category:</b> Resources<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    },
+    {
+      "id": "bc46e6ee-ad11-43f6-ac1f-52230cdf3e9a",
+      "label": "Wikipedia: Cosine Similarity",
+      "group": "Areas",
+      "title": "<b>Title:</b> Wikipedia: Cosine Similarity<br/><b>Category:</b> Areas<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 7
+    },
+    {
+      "id": "d996af71-a37b-4d95-a89f-7602e1ca415e",
+      "label": "PARA Method Overview",
+      "group": "Resources",
+      "title": "<b>Title:</b> PARA Method Overview<br/><b>Category:</b> Resources<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    },
+    {
+      "id": "ede509e6-4dce-4df3-abd8-f3f7bd882ece",
+      "label": "SecondSelf Architecture Note",
+      "group": "Resources",
+      "title": "<b>Title:</b> SecondSelf Architecture Note<br/><b>Category:</b> Resources<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    },
+    {
+      "id": "feac1bd7-06b6-4062-b190-29ae9a829ae8",
+      "label": "Vector Embeddings Concept",
+      "group": "Resources",
+      "title": "<b>Title:</b> Vector Embeddings Concept<br/><b>Category:</b> Resources<br/><b>Summary:</b> Fallback local classification (no LLM API key configured).",
+      "value": 5
+    }
+  ],
+  "edges": [
+    {
+      "from": "237f5490-1ab7-46d1-a324-e9c664695792",
+      "to": "bc46e6ee-ad11-43f6-ac1f-52230cdf3e9a"
+    }
+  ]
+}
