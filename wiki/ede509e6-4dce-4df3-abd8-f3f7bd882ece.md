@@ -2,8 +2,8 @@
 id: "ede509e6-4dce-4df3-abd8-f3f7bd882ece"
 title: "SecondSelf Architecture Note"
 category: "Resources"
-tags: ["auto-generated", "secondself-architecture-note"]
-summary: "Fallback local classification (no LLM API key configured)."
+tags: ["architecture", "sentence-transformers", "Groq", "Llama 3"]
+summary: "Note on SecondSelf architecture using sentence-transformers and Groq for Llama 3 classification"
 source_type: "note"
 captured_at: "2026-07-25T00:47:12.083187Z"
 ---

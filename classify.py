@@ -8,6 +8,11 @@ from groq import Groq
 load_dotenv()
 
 def classify_content(content, title_hint=""):
+    # Truncate content to avoid exceeding Groq TPM/context limits
+    max_chars = 3500
+    if len(content) > max_chars:
+        content = content[:max_chars] + "\n... [truncated for LLM processing] ..."
+
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
         print("Warning: GROQ_API_KEY is not set. Using local fallback classification.", file=sys.stderr)
@@ -132,6 +137,11 @@ def run_classification():
             
         print(f"Saved to: wiki/{uuid_str}.md (Category: {metadata.get('category')})")
         processed_count += 1
+        
+        # Rate limiting delay for Groq Free Tier
+        if os.environ.get("GROQ_API_KEY"):
+            import time
+            time.sleep(2)
         
     print(f"\nClassification complete. Processed {processed_count} new item(s).")
 
